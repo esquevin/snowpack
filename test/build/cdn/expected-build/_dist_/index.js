@@ -1,10 +1,1 @@
-import __SNOWPACK_ENV__ from '/__snowpack__/env.js';
-import.meta.env = __SNOWPACK_ENV__;
-
-import React from "https://cdn.pika.dev/react@^16.13.1";
-import ReactDOM from "https://cdn.pika.dev/react-dom@^16.13.1";
-const App = () => React.createElement("div", null, "I’m an app!");
-ReactDOM.render(React.createElement(App, null), document.getElementById("root"));
-if (import.meta.hot) {
-  import.meta.hot.accept();
-}
+import b from"/__snowpack__/env.js";import.meta.env=b;import a from"https://cdn.pika.dev/react@^16.13.1";import c from"https://cdn.pika.dev/react-dom@^16.13.1";const d=()=>a.createElement("div",null,"I’m an app!");c.render(a.createElement(d,null),document.getElementById("root")),import.meta.hot&&import.meta.hot.accept();

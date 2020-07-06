@@ -1,1 +1,1 @@
-function o(){console.log("local")}export default o;
+function a(){console.log("local")}export default a;

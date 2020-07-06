@@ -1,4 +1,5 @@
 {
+  "description": "Ensures React still works",
   "scripts": {
     "TEST": "node ../../../pkg/dist-node/index.bin.js"
   },

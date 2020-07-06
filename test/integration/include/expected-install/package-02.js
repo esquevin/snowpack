@@ -1,3 +1,1 @@
-function test() {}
-
-export { test };
+function a(){}export{a as test};

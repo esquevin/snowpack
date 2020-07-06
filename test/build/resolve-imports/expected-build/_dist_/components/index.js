@@ -1,3 +1,1 @@
-import sort2 from "../sort.js";
-console.log(sort2);
-export default "Button";
+import a from"../sort.js";console.log(a);export default"Button";

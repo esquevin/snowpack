@@ -1,1 +1,1 @@
-import link from"/web_modules/@snowpack/test-link.js";import deeplink from"/web_modules/@snowpack/test-link/deep.js";import local from"/web_modules/@snowpack/test-local.js";link();deeplink();local();
+import a from"/web_modules/@snowpack/test-link.js";import b from"/web_modules/@snowpack/test-link/deep.js";import c from"/web_modules/@snowpack/test-local.js";a(),b(),c();

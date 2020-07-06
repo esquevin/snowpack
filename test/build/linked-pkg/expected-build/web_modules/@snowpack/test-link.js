@@ -1,1 +1,1 @@
-function o(){console.log("link")}export default o;
+function a(){console.log("link")}export default a;

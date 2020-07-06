@@ -1,17 +1,1 @@
-/** SNOWPACK INJECT STYLE: dep-b/index.css */
-function __snowpack__injectStyle(css) {
-  const headEl = document.head || document.getElementsByTagName('head')[0];
-  const styleEl = document.createElement('style');
-  styleEl.type = 'text/css';
-  if (styleEl.styleSheet) {
-    styleEl.styleSheet.cssText = css;
-  } else {
-    styleEl.appendChild(document.createTextNode(css));
-  }
-  headEl.appendChild(styleEl);
-}
-__snowpack__injectStyle("body { background-color: red; }");
-
-var index = 'THIS SHOULD BE BUNDLED + CSS';
-
-export default index;
+function c(b){const e=document.head||document.getElementsByTagName("head")[0],a=document.createElement("style");a.type="text/css",a.styleSheet?a.styleSheet.cssText=b:a.appendChild(document.createTextNode(b)),e.appendChild(a)}c("body { background-color: red; }");var d="THIS SHOULD BE BUNDLED + CSS";export default d;

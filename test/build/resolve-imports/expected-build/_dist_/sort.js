@@ -1,1 +1,1 @@
-export default (arr) => arr.sort();
+export default a=>a.sort();
