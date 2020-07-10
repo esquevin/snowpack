@@ -12,6 +12,7 @@
     "access": "public"
   },
   "scripts": {
+    "prepare": "npm run build",
     "build": "pika build",
     "publish": "pika publish",
     "version": "npm run build",
