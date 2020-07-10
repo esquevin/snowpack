@@ -1,6 +1,10 @@
 {
   "name": "snowpack",
   "main": "pkg/dist-node/index.bin.js",
+  "bin": {
+    "sp": "pkg/dist-node/index.bin.js",
+    "snowpack": "pkg/dist-node/index.bin.js"
+  },
   "version": "2.6.3",
   "description": "Run npm packages directly in the browser. No Webpack, Parcel, or bundlers required.",
   "author": "Fred K. Schott <fkschott@gmail.com>",
